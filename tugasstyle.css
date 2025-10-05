@@ -1,0 +1,21 @@
+
+body {
+  background-color: #c2ccdb; /* Warna lembut */
+  font-family: Arial, Helvetica, sans-serif; /* Sans-serif */
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading biru */
+h1 {
+  color: blue;        /* Ubah warna teks heading */
+  margin: 20px;       /* Beri jarak dari tepi */
+  text-align: left;   /* Posisi teks kiri */
+}
+
+/* Paragraf dengan jarak antarbaris */
+p {
+  margin: 0 20px 14px; /* Jarak bawah antar paragraf */
+  line-height: 1.6;    /* Tinggi baris agar lebih mudah dibaca */
+  color: #111;         /* Warna teks hitam keabu-abuan */
+}
