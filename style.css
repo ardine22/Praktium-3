@@ -1,0 +1,97 @@
+body{
+    background :linear-gradient(rgb(178, 214, 243), rgb(255, 238, 238) );
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+   
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #a00a0a;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+#highlight{
+    color: yellow;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.fancy{
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-style: italic;
+}
+.example{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+ul.listsatu{
+    list-style-type: square;
+    background-color: rgb(0, 128, 0);
+    margin: 10px    20px 10px 20px;
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    padding: 10px;
+    border-radius: 10px;
+}
+ol.listdua{
+    list-style-type: decimal;
+    background-color: rgb(255, 165, 0);
+    margin: 10px    20px 10px 20px;
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    padding: 10px;
+    border-radius: 10px;
+}
+.section{
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+.mark{
+    background-color: yellow;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+.animate-text{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    animation : colorchange 3s infinite;
+}
+@keyframes colorchange{
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: red;}
+}
+a.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
